@@ -1,13 +1,6 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 ruby '2.3.0'
-#ruby '2.2.5'
-
-#Added line to gemfile myself
-gem 'tzinfo-data'
-gem 'sqlite3'
-
-#end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -50,7 +43,6 @@ group :development, :test do
   
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-  
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
